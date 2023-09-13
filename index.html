@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>websocket</title>
+</head>
+<body>
+  WebSocket
+  <div>
+    <input id="hi" type="button" value="hi"/>
+  </div>
+  <script>
+    var ws
+    const log = console.log
+    const hi = document.querySelector("#hi")
+
+    ws = new WebSocket("ws://localhost:8080/ws")
+    ws.onopen = () => {
+      log("ws connected")
+      ws.send("first greet")
+    }
+    
+    ws.onmessage = (e) => {
+      log(e.data)
+    }
+
+
+    hi.onclick = ()=>{
+      ws.send("hi")
+    }
+
+
+  </script>
+</body>
+</html>
