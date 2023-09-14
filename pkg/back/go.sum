@@ -1,0 +1,6 @@
+github.com/cbot918/liby v1.2.0 h1:NyRdCn2DWadGdZuIDrmE3Sl7sEB9dQAYFNikYHws0Es=
+github.com/cbot918/liby v1.2.0/go.mod h1:pPBUzSUhSIzOnPLWVQw7xwRHF1sm21fkPiWdnvsD2Kg=
+github.com/cbot918/wsy v0.0.0-20230630143253-7cf994d9a1b1 h1:BMjvmNz3gDs8imHTP/Ss6y4cu2WEgUuJnm1nbjAwE8g=
+github.com/cbot918/wsy v0.0.0-20230630143253-7cf994d9a1b1/go.mod h1:f+4S6mbtz4frELDQxgEbNGytdkkjXImKJjqb1e9v3CU=
+github.com/google/uuid v1.3.0 h1:t6JiXgmwXMjEs8VusXIJk2BXHsn+wx8BZdTaoZ5fu7I=
+github.com/google/uuid v1.3.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
